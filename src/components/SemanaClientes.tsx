@@ -77,6 +77,7 @@ export default function SemanaClientes() {
 
     obtenerPrestamos();
   }, [dias]);
+  
 
   const filtrarPrestamos = (prestamos: Prestamo[]): Prestamo[] => {
     const prestamosFiltrados: Prestamo[] = [];
